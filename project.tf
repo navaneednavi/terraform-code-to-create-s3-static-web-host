@@ -3,7 +3,7 @@ provider "aws" {
   region = "us-west-1"
 }
 resource "aws_s3_bucket" "s3" {
-  bucket = "jekiasdfghjklasdfghgfd"
+  bucket = "jekiasdfghjklasdfghgfdnavii"
 }
 resource "aws_s3_bucket_policy" "policy" {
   bucket = aws_s3_bucket.s3.id
